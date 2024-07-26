@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Document</title>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+</head>
+
+<body>
+  <section>
+    <div class="feedback-heading">
+      <h1>Feedback</h1>
+    </div>
+    <div class="feedback">
+      
+      <div class="feedback-container">
+
+        <div class="feedback-images">
+          <img src="./images/feedback1.webp" alt="picture">
+          <div class="overlay">
+            <div class="star-image">
+             <div class="str-img"> <img src="../images/feedback-star.png" alt="rating"></div>
+              <h1>I LOVE IT! 1</h1>
+              <p>This is so pretty Allahuma Barek! The colors and patterns are prettier in person, and I'm in love with
+                the layered sleeves, SO CUTE! I hope to see more of this style/fabric abaya in shaa Allah!</p>
+              <p class="feedback-name"> — Lisa, Salisbury North, Australia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="feedback-container">
+
+        <div class="feedback-images">
+          <img src="../images/feedback2.webp" alt="picture">
+
+          <div class="overlay">
+            <div class="star-image">
+              <div class="str-img"> <img src="../images/feedback-star.png" alt="rating"></div>
+              <h1>REALLY NICE DESIGN</h1>
+              <p>
+                The design is really nice and fits well. I really like the salwar kameez and would still purchase it again as I like the design and it's reasonably priced compared to other sites.</p>
+              <p class="feedback-name"> — Tammy, Ontario, Canada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="feedback-container">
+
+        <div class="feedback-images">
+          <img src="../images/feedback3.webp" alt="picture">
+
+          <div class="overlay">
+            <div class="star-image">
+              <div class="str-img"> <img src="../images/feedback-star.png" alt="rating"></div>
+              <h1>BEST SUMMER ABAYA!</h1>
+              <p>Bought this specifically to accommodate Australian summers and no fuss abaya/dress and this is IT!Verdict: I love it!</p>
+              <p class="feedback-name"> — Lisa, Salisbury North, Australia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="feedback-container">
+
+        <div class="feedback-images">
+          <img src="../images/feedback4.webp" alt="picture">
+
+          <div class="overlay">
+            <div class="star-image">
+              <div class="str-img"> <img src="../images/feedback-star.png" alt="rating"></div>
+              <h1>ABAYA BLANKET!</h1>
+              <p>No joke I literally feel like I'm wearing a blanket I wasn't expecting it to be this soft and comfortable Allahuma Barek this is the perfect abaya for winter time- its so warm and comfy.</p>
+              <p class="feedback-name"> — Deena, Michigan, United States</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="feedback-container">
+
+        <div class="feedback-images">
+          <img src="../images/feedback5.webp" alt="picture">
+
+          <div class="overlay">
+            <div class="star-image">
+              <div class="str-img"> <img src="../images/feedback-star.png" alt="rating"></div>
+              <h1>PERFECTLY LOVELY</h1>
+              <p>I am delighted with this beautiful abaya! Which I ordered in the color "serenity" for a special event in honor of Tāhirah. It arrived in perfect timing.</p>
+              <p class="feedback-name"> — Terry Dillon, Salt Lake City, Utah, United States</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+  </section>
+
+
+  <script>
+
+    $('.feedback').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      prevArrow: '<button class="custom-previous custom-arrow-btn slick-arrow" type="button" aria-label="Previous" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
+      nextArrow: '<button class="custom-next custom-arrow-btn slick-arrow" type="button" aria-label="Next" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 840,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 560,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+
+</body>
+
+</html>

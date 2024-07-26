@@ -1,0 +1,129 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.feedback-heading h1{
+    border-bottom: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.feedback-container {
+    position: relative;
+    text-align: center;
+    
+}
+
+.overlay:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    transition: all .5s ease; 
+}
+
+.feedback-images img{
+    height: auto;
+    width: 100%;
+  
+}
+
+.star-image{
+    position: absolute;
+    top: 65%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: aliceblue;
+    opacity: .7;
+    
+}
+
+.star-image p{
+    font-size: .95rem;
+   
+}
+
+.feedback-name{
+    color: rgb(93, 95, 95);
+}
+.str-img {
+    max-width: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+.str-img img {
+ display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media (max-width:840px) {
+    .star-image{
+        top: 50%;
+    }
+}
+
+@media (max-width:590px) {
+    .star-image{
+        top: 50%;
+    }
+}
+
+.custom-arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.custom-arrow-btn svg, .custom-arrow-btn svg path {
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+.custom-previous {left: 15px; }
+.custom-next {right: 15px;}
